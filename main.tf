@@ -4,7 +4,7 @@ provider "aws" {
 
 resource "aws_instance" "instance1" {
         ami = "ami-0c15e602d3d6c6c4a"
-        instance_type = "t2.medium"
+        instance_type = "t2.small"
         availability_zone = "us-east-1a"
         key_name = "Swanand_Terraform_key"
         tags = {
