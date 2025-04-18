@@ -8,6 +8,6 @@ resource "aws_instance" "instance1" {
         availability_zone = "us-east-1a"
         key_name = "Swanand_Terraform_key"
         tags = {
-                Name = "instance1"
+                Name = "instance1-1"
 }
 }
